@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo"
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
-import React, { useState, useEffect } from "react";
+import React from "react"; //{ useState, useEffect } from "react";
 
 // interface dataType {
 //     nivel: number,
