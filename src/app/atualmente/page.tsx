@@ -1,4 +1,3 @@
-'use client'
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo"
 import Titulo from "@/components/titulo";
