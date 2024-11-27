@@ -5,76 +5,76 @@ import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
 import React, { useState, useEffect } from "react";
 
-interface dataType {
-    nivel: number,
-    data_iniSE: number,
-    casos: number
-}
+// interface dataType {
+//     nivel: number,
+//     data_iniSE: number,
+//     casos: number
+// }
 
 export default function Atualmente() {
-    const [status, setStatus] = useState< number | null | undefined >(null)
-    const [data, setData] = useState< dataType[] | null | undefined >(null)
-    const [loading, setLoading] = useState< boolean>(true)
-    const [error, setError] = useState< string | null >(null)
+    // const [status, setStatus] = useState< number | null | undefined >(null)
+    // const [data, setData] = useState< dataType[] | null | undefined >(null)
+    // const [loading, setLoading] = useState< boolean>(true)
+    // const [error, setError] = useState< string | null >(null)
 
-    useEffect(()=>{
-        const fetchData = async () => {
-            try {
-                const response = await fetch("https://pidengue2backend.onrender.com/proxy/?url=https%3A%2F%2Finfo.dengue.mat.br%2Fapi%2Falertcity%2F%3Fgeocode%3D3520509%26disease%3Ddengue%26format%3Djson%26ew_start%3D08%26ey_start%3D2008%26ew_end%3D25%26ey_end%3D2029%27")
-                if (!response.ok){
-                    throw new Error("Não foi possível obter uma resposta")
-                }
-                const jsonData = await response.json()
-                setData(jsonData)
-                setStatus(data?.[0]?.nivel)
-            } catch (error: unknown){
-                if (error instanceof Error){
-                    setError(error.message)
-                } else {
-                    setError('Um erro desconhecido ocorreu')
-                }
-            } finally {
-                setLoading(false)
-            }
-        }
-        fetchData()
-    }, [])
+    // useEffect(()=>{
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await fetch("https://pidengue2backend.onrender.com/proxy/?url=https%3A%2F%2Finfo.dengue.mat.br%2Fapi%2Falertcity%2F%3Fgeocode%3D3520509%26disease%3Ddengue%26format%3Djson%26ew_start%3D08%26ey_start%3D2008%26ew_end%3D25%26ey_end%3D2029%27")
+    //             if (!response.ok){
+    //                 throw new Error("Não foi possível obter uma resposta")
+    //             }
+    //             const jsonData = await response.json()
+    //             setData(jsonData)
+    //             setStatus(data?.[0]?.nivel)
+    //         } catch (error: unknown){
+    //             if (error instanceof Error){
+    //                 setError(error.message)
+    //             } else {
+    //                 setError('Um erro desconhecido ocorreu')
+    //             }
+    //         } finally {
+    //             setLoading(false)
+    //         }
+    //     }
+    //     fetchData()
+    // }, [])
 
 
-    let classeStatus = ''
-    let statusStringCor = ''
-    if (status == 1){
-        classeStatus = 'text-lime-500'
-        statusStringCor = 'verde'
-    } else if (status == 2){
-        classeStatus = 'text-amber-300'
-        statusStringCor = 'amarelo'
-    } else if (status == 3) {
-        classeStatus = 'text-amber-500'
-        statusStringCor = 'laranja'
-    } else {
-        classeStatus = 'text-red-500'
-        statusStringCor = 'vermelho'
-    }
+    // let classeStatus = ''
+    // let statusStringCor = ''
+    // if (status == 1){
+    //     classeStatus = 'text-lime-500'
+    //     statusStringCor = 'verde'
+    // } else if (status == 2){
+    //     classeStatus = 'text-amber-300'
+    //     statusStringCor = 'amarelo'
+    // } else if (status == 3) {
+    //     classeStatus = 'text-amber-500'
+    //     statusStringCor = 'laranja'
+    // } else {
+    //     classeStatus = 'text-red-500'
+    //     statusStringCor = 'vermelho'
+    // }
 
-    function unixConverter(timestamp: number | undefined){
-        if (timestamp == undefined){
-            return ''
-        }
-        let currentDate = new Date(timestamp)
-        let months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-        let year = String(currentDate.getFullYear());
-        let month= String(months[currentDate.getMonth()]);
-        let date = String(currentDate.getDate());
-        if (date.length<2) {
-            date = '0'+date
-        }
-        let recordDate = date+'/'+month+'/'+year
-        return recordDate
-    }
+    // function unixConverter(timestamp: number | undefined){
+    //     if (timestamp == undefined){
+    //         return ''
+    //     }
+    //     let currentDate = new Date(timestamp)
+    //     let months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+    //     let year = String(currentDate.getFullYear());
+    //     let month= String(months[currentDate.getMonth()]);
+    //     let date = String(currentDate.getDate());
+    //     if (date.length<2) {
+    //         date = '0'+date
+    //     }
+    //     let recordDate = date+'/'+month+'/'+year
+    //     return recordDate
+    // }
 
-    let dia = unixConverter(data?.[0]?.data_iniSE)
-    let casos = data?.[0]?.casos
+    // let dia = unixConverter(data?.[0]?.data_iniSE)
+    // let casos = data?.[0]?.casos
 
     return (
         <>
@@ -90,7 +90,7 @@ export default function Atualmente() {
             borderStyle:'solid',
             borderWidth:'thin',
         }}>
-            <h2 className="text-2xl">Veja os dados sobre a dengue em Indaiatuba na última semana:</h2>
+            {/* <h2 className="text-2xl">Veja os dados sobre a dengue em Indaiatuba na última semana:</h2>
             {loading && <h2>Carregando...</h2>}
             {error && <p>Sentimos muito, ocorreu um erro ao recuperar os dados</p>}
             {data && !loading && !error && (
@@ -98,7 +98,7 @@ export default function Atualmente() {
             <p>Indaiatuba teve {casos} casos de dengue essa semana ({dia})</p>
             <p className={classeStatus}>O nível de alerta é {statusStringCor}!</p>
             </>
-            )}
+            )} */}
         </div>
         <Footer />
         </>
