@@ -13,6 +13,7 @@ export default function Navbar() {
                         <Link href="/Diagnostico" className="mx-4 px-4 py-2 font-semibold text-black-700 hover:bg-green-300 rounded-md">Diagnóstico</Link>
                         <Link href="/Prevencao" className="mx-4 px-4 py-2 font-semibold text-black-700 hover:bg-green-300 rounded-md">Prevenção e Tratamento</Link>
                         <Link href="/Matematica" className="mx-4 px-4 py-2 font-semibold text-black-700 hover:bg-green-300 rounded-md">Modelos</Link>
+                        <Link href="/Login" className="mx-4 px-4 py-2 font-semibold text-black-700 hover:bg-green-300 rounded-md">Login</Link>
                     </nav>
                 </div>
             </body>
