@@ -24,6 +24,14 @@ export default function Footer() {
                         width="100%" height="250" loading="lazy"></iframe>
                 </div>
             </div>
+            <div className="flex flex-col bg-green-200 items-center pb-6">
+                <h3 style ={titulo}>Este site foi criado por estudantes de DSM da FATEC de Indaiatuba:</h3>
+                <a href="https://github.com/ArthurDG2" title="https://github.com/ArthurDG2">Arthur Davi Gomes</a>
+                <a href="https://github.com/DanielBritoSJunior" title="https://github.com/DanielBritoSJunior">Daniel Brito da Silva Junior</a>
+                <a href="https://github.com/ericmeneg" title="https://github.com/ericmeneg">Eric Vinicius da Silva Menegon</a>
+                <a href="https://github.com/leohubert27" title="https://github.com/leohubert27">Leonardo Vinicius Gurtler Hubert</a>
+                <a href="https://github.com/robson817" title="https://github.com/robson817">Robson Alan Mantovani</a>
+            </div>
         </>
     )
 }

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Link from "next/link"
 import './Login.css'; 
+import Footer from "@/components/footer";
 
 const Login: React.FC = () => {
     const [email, setEmail] = useState('');
@@ -15,6 +16,7 @@ const Login: React.FC = () => {
     };
   
     return (
+      <>
       <div className="login-container">
         <form className="login-form" onSubmit={handleLogin}>
           <h2>🐝 Xô Dengue!</h2>
@@ -49,6 +51,8 @@ const Login: React.FC = () => {
           </div>
         </form>
       </div>
+      <Footer />
+      </>
     );
   };
   
