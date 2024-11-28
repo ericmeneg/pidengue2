@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 export default function Diagnostico() {
     return (
         <>
+        <div className="bg-white">
         <Navbar />
         <Titulo texto="Sintomas" />
         <Artigo 
@@ -20,6 +21,7 @@ export default function Diagnostico() {
         nomeImagem="tuboteste.svg" 
         altImagem="Foto de um tubo com sangue, um adesivo colado tem uma marcação de postivo sobre um texto que diz dengue." />
         <Footer />
+        </div>
         </>
     )
 }

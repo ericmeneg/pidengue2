@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 export default function Prevencao() {
     return (
         <>
+        <div className="bg-white">
         <Navbar/>
         <Titulo texto = "Prevenção" />
         <Artigo
@@ -20,6 +21,7 @@ export default function Prevencao() {
         nomeImagem="pessoahospitalizada.svg" 
         altImagem="Imagem de uma pessoa enferma internada em um hospital." />
         <Footer />
+        </div>
         </>
     )
 }

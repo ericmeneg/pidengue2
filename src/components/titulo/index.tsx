@@ -7,13 +7,13 @@ interface TituloProps{
 export default function Titulo({texto}: TituloProps) {
     return (
         <>
-            <div className="title mx-auto w-[90%] mt-10">
-            <h2 className="titleText" style={{fontWeight: 'normal'}}>{texto}</h2>
+            <div className="title mx-auto w-[90%] mt-10 ">
+            <h2 className="titleText text-black" style={{fontWeight: 'normal'}}>{texto}</h2>
             </div>
             <style jsx>{`
                 .title{
                     width: 90%;
-                    background-color: #b4e4d2;
+                    background-color: #BBF7D0;
                     border-radius: 60px
                 }
                 

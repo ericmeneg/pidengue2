@@ -6,6 +6,7 @@ import Footer from "@/components/footer"
 export default function Historico() {
     return (
         <>
+        <div className="bg-white">
         <Navbar/>
         <Titulo texto="Histórico"></Titulo>
         <Artigo
@@ -15,6 +16,7 @@ export default function Historico() {
         altImagem="Imagem de um mosquito da dengue rodeando um barco, ao fundo pode-se ver pirâmides e uma esfinge"
         ></Artigo>
         <Footer />
+        </div>
         </>    
 )
 }

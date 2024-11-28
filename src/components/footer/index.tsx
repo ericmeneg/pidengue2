@@ -9,14 +9,14 @@ export default function Footer() {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row space-x-8 items-center justify-center mt-20 bg-emerald-100 pt-8 pb-10">
-                <div className="flex mb-10 md:mb-0 flex-col space-y-4 w-1/3">
+            <div className="flex flex-col md:flex-row space-x-8 items-center justify-center mt-20 bg-green-200 pt-8 pb-10">
+                <div className="flex mb-10 md:mb-0 flex-col space-y-4 w-1/3 text-black ">
                     <h3 style = {titulo}>Veja outros recursos</h3>
                     <a className = "linkFooter" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue">Ministério da saúde</a>
                     <a className = "linkFooter" href="https://www.indaiatuba.sp.gov.br/saude/vigilancia-em-saude/vigilancia-epidemiologica/dengue/">Prefeitura de Indaiatuba</a>
                     <a className = "linkFooter" href="https://info.dengue.mat.br/">Info Dengue</a>
                 </div>
-                <div>
+                <div className="flex mb-10 md:mb-0 flex-col space-y-4 w-1/3 text-black ">
                     <h3 style = {titulo}>Conheça a FATEC de Indaiatuba!</h3>
                     <iframe
                         style = {{marginTop: '0.83em'}}

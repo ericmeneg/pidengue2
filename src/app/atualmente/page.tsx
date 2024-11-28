@@ -77,6 +77,7 @@ export default function Atualmente() {
 
     return (
         <>
+        <div className="bg-white">
         <Navbar/>
         <Titulo texto="Atualmente" />
         <Artigo
@@ -98,6 +99,7 @@ export default function Atualmente() {
             <p className={classeStatus}>O nível de alerta é {statusStringCor}!</p>
             </>
             )} */}
+        </div>
         </div>
         <Footer />
         </>

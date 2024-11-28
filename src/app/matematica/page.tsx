@@ -6,6 +6,7 @@ import Artigo from "@/components/artigo";
 export default function Matematica() {
     return (
         <>
+        <div className="bg-white">
         <Navbar/>
         <Titulo texto="Modelo SIR"></Titulo>
         <Artigo 
@@ -20,6 +21,7 @@ export default function Matematica() {
         nomeImagem="grafico_newton_e_reiter.png"
         altImagem="Gráfico de Ana Paula P. Wyse, Amaury Oliveira Gemaque e Guzman Eulálio Isla Chamilco, que demonstra o número de indivíduos infectados pelas dengues clássica e hemorrágica, pode-se ver que ambos crescem exponencialmente até um pico na metade do gráfico após 90 dias, e em seguida diminuem até zero no mesmo ritmo em que antes cresciam" />
         <Footer />
+        </div>
         </>
     )
 }
