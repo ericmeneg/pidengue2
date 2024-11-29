@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(120deg, #BBF7D0, #c3efe7);
+    background: linear-gradient(0deg, #c0f4d4, #c3efe7);
   }
   
   .login-form {
@@ -72,5 +72,3 @@
   .additional-options a:hover {
     text-decoration: underline;
   }
-
-  
