@@ -27,11 +27,11 @@ export default function Footer() {
             <div className=" bg-green-200">
                 <div className="sm:w-1/3 w-10/12 flex flex-col items-center pb-6 mx-auto">
                     <h3 style={titulo}>Este site foi criado por estudantes de DSM da FATEC de Indaiatuba:</h3>
-                    <a href="https://github.com/ArthurDG2" title="https://github.com/ArthurDG2">Arthur Davi Gomes</a>
-                    <a href="https://github.com/DanielBritoSJunior" title="https://github.com/DanielBritoSJunior">Daniel Brito da Silva Junior</a>
-                    <a href="https://github.com/ericmeneg" title="https://github.com/ericmeneg">Eric Vinicius da Silva Menegon</a>
-                    <a href="https://github.com/leohubert27" title="https://github.com/leohubert27">Leonardo Vinicius Gurtler Hubert</a>
-                    <a href="https://github.com/robson817" title="https://github.com/robson817">Robson Alan Mantovani</a>
+                    <a className="linkFooter" href="https://github.com/ArthurDG2" title="https://github.com/ArthurDG2">Arthur Davi Gomes</a>
+                    <a className="linkFooter" href="https://github.com/DanielBritoSJunior" title="https://github.com/DanielBritoSJunior">Daniel Brito da Silva Junior</a>
+                    <a className="linkFooter" href="https://github.com/ericmeneg" title="https://github.com/ericmeneg">Eric Vinicius da Silva Menegon</a>
+                    <a className="linkFooter" href="https://github.com/leohubert27" title="https://github.com/leohubert27">Leonardo Vinicius Gurtler Hubert</a>
+                    <a className="linkFooter" href="https://github.com/robson817" title="https://github.com/robson817">Robson Alan Mantovani</a>
                 </div>
             </div>
 
