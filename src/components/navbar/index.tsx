@@ -38,14 +38,13 @@ export default function Navbar() {
         </div>
         {/* Links for desktop */}
         <div className="hidden lg:flex lg:gap-x-12">
-                <Link href="/" className="linkNavBar">Home</Link>
-                <Link href="/login" className="linkNavBar">Login</Link>
-                <Link href="/oque" className="linkNavBar">O que é?</Link>
-                <Link href="/historico" className="linkNavBar">Histórico</Link>
-                <Link href="/atualmente" className="linkNavBar">Atualmente</Link>
-                <Link href="/diagnostico" className="linkNavBar">Sintomas e Diagnóstico</Link>
-                <Link href="/prevencao" className="linkNavBar">Prevenção e Tratamento</Link>
-                <Link href="/matematica" className="linkNavBar">Modelos</Link>
+          <Link href="/" className="linkNavBar">Home</Link>
+          <Link href="/oque" className="linkNavBar">O que é?</Link>
+          <Link href="/historico" className="linkNavBar">Histórico</Link>
+          <Link href="/atualmente" className="linkNavBar">Atualmente</Link>
+          <Link href="/diagnostico" className="linkNavBar">Sintomas e Diagnóstico</Link>
+          <Link href="/prevencao" className="linkNavBar">Prevenção e Tratamento</Link>
+          <Link href="/matematica" className="linkNavBar">Modelos</Link>
         </div>
       </nav>
       {/* Mobile menu */}
@@ -71,14 +70,13 @@ export default function Navbar() {
             </button>
           </div>
           <div className="mt-6 space-y-2">
-                <Link href="/" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Home</Link>
-                <Link href="/login" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Login</Link>
-                <Link href="/oque" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">O que é?</Link>
-                <Link href="/historico" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Histórico</Link>
-                <Link href="/atualmente" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Atualmente</Link>
-                <Link href="/diagnostico" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Sintomas e Diagnóstico</Link>
-                <Link href="/prevencao" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Prevenção e Tratamento</Link>
-                <Link href="/matematica" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Modelos</Link>
+            <Link href="/" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Home</Link>
+            <Link href="/oque" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">O que é?</Link>
+            <Link href="/historico" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Histórico</Link>
+            <Link href="/atualmente" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Atualmente</Link>
+            <Link href="/diagnostico" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Sintomas e Diagnóstico</Link>
+            <Link href="/prevencao" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Prevenção e Tratamento</Link>
+            <Link href="/matematica" className="linkNavBarMobile block rounded-lg py-2 px-3 text-base font-semibold text-gray-900 hover:bg-green-300">Modelos</Link>
           </div>
         </DialogPanel>
       </Dialog>

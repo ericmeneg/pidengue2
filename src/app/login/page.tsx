@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Link from "next/link"
-import './Login.css'; 
+import './login.css'; 
 import Footer from "@/components/footer";
 
 const Login: React.FC = () => {
@@ -43,7 +43,7 @@ const Login: React.FC = () => {
               required
             />
           </div>
-          <button type="submit" className="login-button">Entrar</button>
+          <Link href="/" className="login-button">Entrar</Link>
           <div className="additional-options">
             <a href='/login' className="forgot-password-link">Cadastre-se</a>
             <a href='/login' className="forgot-password-link">Esqueci minha senha</a>
