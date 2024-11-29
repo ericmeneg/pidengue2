@@ -15,6 +15,7 @@ export default function Historico() {
         nomeImagem="mosquitoegito.svg"
         altImagem="Imagem de um mosquito da dengue rodeando um barco, ao fundo pode-se ver pirâmides e uma esfinge"
         ></Artigo>
+        <img className="mt-10" src="/images/grafico_indaiatuba.png" alt="Gráfico mostrando o crescimento da dengue em indaiatuba ao longo dos anos desde 2010, vê-se que no meio de 2024 a proliferaçao da doença esteve em seu auge" />
         <Footer />
         </div>
         </>    
