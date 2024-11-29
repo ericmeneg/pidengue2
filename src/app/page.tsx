@@ -16,7 +16,7 @@ export default function Home() {
         <Botao texto="Realizar Login" destino="/login" />
       </div>
       <Titulo texto="Veja um vídeo relevante" />
-      <iframe className="mx-auto mt-10 mb-20" width="560" height="315" src="https://www.youtube.com/embed/6DHlzOoA7GU?si=LpHGt8yVeEZOkRQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe className="mx-auto mt-10 mb-20" width="560" height="315" src="https://www.youtube.com/embed/6DHlzOoA7GU?si=LpHGt8yVeEZOkRQE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <Footer />
     </body>
   )
