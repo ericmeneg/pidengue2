@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Link from "next/link"
-import './login.css'; 
+import './Login.css'; 
 import Footer from "@/components/footer";
 
 const Login: React.FC = () => {
