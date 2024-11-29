@@ -20,6 +20,7 @@ export default function Prevencao() {
         posicaoDoTexto="R" 
         nomeImagem="pessoahospitalizada.svg" 
         altImagem="Imagem de uma pessoa enferma internada em um hospital." />
+        <div className="mb-20" />
         <Footer />
         </div>
         </>

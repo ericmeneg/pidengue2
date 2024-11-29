@@ -9,7 +9,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row space-x-8 items-center justify-center mt-20 bg-green-200 pt-8 pb-10">
+            <div className="flex flex-col md:flex-row space-x-8 items-center justify-center bg-green-200 pt-8 pb-10">
                 <div className="flex mb-10 md:mb-0 flex-col space-y-4 sm:w-1/3 w-10/12 text-black ">
                     <h3 style={titulo}>Veja outros recursos</h3>
                     <a className="linkFooter" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue">Ministério da saúde</a>

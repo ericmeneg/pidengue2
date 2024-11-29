@@ -100,6 +100,7 @@ export default function Atualmente() {
             )}
         </div>
         </div>
+        <div className="mb-20" />
         <Footer />
         </>
     )

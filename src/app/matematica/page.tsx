@@ -34,6 +34,7 @@ export default function Matematica() {
                 posicaoDoTexto="R"
                 nomeImagem="regressao_linear.jpg"
                 altImagem="Visualização da regressão linear" />
+                <div className="mb-20" />
                 <Footer />
             </div>
         </>

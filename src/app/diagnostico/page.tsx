@@ -20,6 +20,7 @@ export default function Diagnostico() {
         posicaoDoTexto="R"
         nomeImagem="tuboteste.svg" 
         altImagem="Foto de um tubo com sangue, um adesivo colado tem uma marcação de postivo sobre um texto que diz dengue." />
+        <div className="mb-20" />
         <Footer />
         </div>
         </>

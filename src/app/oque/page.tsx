@@ -14,6 +14,7 @@ export default function Oque() {
             nomeImagem="virusmicroscopio.svg" 
             altImagem="Imagem computadorizada do vírus da dengue visito por microscópio"
             />
+            <div className="mb-20"></div>
             <Footer />
             </div>
         </>
