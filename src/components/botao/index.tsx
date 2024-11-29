@@ -8,6 +8,6 @@ interface botaoProps {
 
 export default function Botao({ texto, destino }: botaoProps) {
     return (
-        <Link href={destino} className="login-button flex flex-row justify-center">{texto}</Link>
+        <Link href={destino} className="login-button text-center">{texto}</Link>
     )
 }
