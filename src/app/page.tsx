@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <Titulo texto="Veja um vídeo relevante" />
       <div className="px-6">
-      <iframe className="w-full mx-auto mt-10 mb-20" width="560" height="315" src="https://www.youtube.com/embed/6DHlzOoA7GU?si=LpHGt8yVeEZOkRQE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      <iframe className="w-11/12 mx-auto mt-10 mb-20" width="560" height="560" src="https://www.youtube.com/embed/6DHlzOoA7GU?si=LpHGt8yVeEZOkRQE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
       <Footer />
     </body>
