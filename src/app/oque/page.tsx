@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
+import Topo from "@/components/topo";
 
 export default function Oque() {
     return (
@@ -15,6 +16,7 @@ export default function Oque() {
             altImagem="Imagem computadorizada do vírus da dengue visito por microscópio"
             />
             <div className="mb-20"></div>
+            <Topo />
             <Footer />
             </div>
         </>

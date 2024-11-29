@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Botao from "@/components/botao"
+import Titulo from "@/components/titulo"
 
 // Fundo anterior "bg-blue-50"
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <div className="flex flex-row mx-auto w-4/12 mb-20">
         <Botao texto="Realizar Login" destino="/login" />
       </div>
+      <Titulo texto="Veja um vídeo relevante" />
+      <iframe className="mx-auto mt-10 mb-20" width="560" height="315" src="https://www.youtube.com/embed/6DHlzOoA7GU?si=LpHGt8yVeEZOkRQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Footer />
     </body>
   )

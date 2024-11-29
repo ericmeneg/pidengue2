@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
+import Topo from "@/components/topo";
 
 export default function Prevencao() {
     return (
@@ -21,6 +22,7 @@ export default function Prevencao() {
         nomeImagem="pessoahospitalizada.svg" 
         altImagem="Imagem de uma pessoa enferma internada em um hospital." />
         <div className="mb-20" />
+        <Topo />
         <Footer />
         </div>
         </>

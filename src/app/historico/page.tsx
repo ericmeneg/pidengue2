@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer"
+import Topo from "@/components/topo";
 
 export default function Historico() {
     return (
@@ -16,6 +17,7 @@ export default function Historico() {
         altImagem="Imagem de um mosquito da dengue rodeando um barco, ao fundo pode-se ver pirâmides e uma esfinge"
         ></Artigo>
         <img className="mb-20 mt-10" src="/images/grafico_indaiatuba.png" alt="Gráfico mostrando o crescimento da dengue em indaiatuba ao longo dos anos desde 2010, vê-se que no meio de 2024 a proliferaçao da doença esteve em seu auge" />
+        <Topo />
         <Footer />
         </div>
         </>    

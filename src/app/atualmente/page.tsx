@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo"
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
+import Topo from "@/components/topo";
 import React, { useState, useEffect } from "react";
 
 interface dataType {
@@ -101,6 +102,7 @@ export default function Atualmente() {
         </div>
         </div>
         <div className="mb-20" />
+        <Topo />
         <Footer />
         </>
     )

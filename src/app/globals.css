@@ -7,6 +7,10 @@
   src: url('/fonts/Merriweather-Regular.ttf') format('truetype')
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -42,5 +46,9 @@ h2 {
 }
 
 .linkNavBar:hover {
+  text-decoration: underline;
+}
+
+.botaoTopo:hover{
   text-decoration: underline;
 }

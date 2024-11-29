@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Titulo from "@/components/titulo";
 import Artigo from "@/components/artigo";
 import Footer from "@/components/footer";
+import Topo from "@/components/topo";
 
 export default function Diagnostico() {
     return (
@@ -21,6 +22,7 @@ export default function Diagnostico() {
         nomeImagem="tuboteste.svg" 
         altImagem="Foto de um tubo com sangue, um adesivo colado tem uma marcação de postivo sobre um texto que diz dengue." />
         <div className="mb-20" />
+        <Topo />
         <Footer />
         </div>
         </>

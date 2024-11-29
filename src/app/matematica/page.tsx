@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Titulo from "@/components/titulo";
 import Artigo from "@/components/artigo";
+import Topo from "@/components/topo";
 
 export default function Matematica() {
     return (
@@ -35,6 +36,7 @@ export default function Matematica() {
                 nomeImagem="regressao_linear.jpg"
                 altImagem="Visualização da regressão linear" />
                 <div className="mb-20" />
+                <Topo />
                 <Footer />
             </div>
         </>
